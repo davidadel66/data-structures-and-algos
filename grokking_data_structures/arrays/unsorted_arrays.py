@@ -5,7 +5,7 @@ from typing import Union
 class UnsortedArray:
     def __init__(self, max_size: int, typecode: str = 'l'):
         if max_size <= 0:
-            raise ValueError(f"Size needs to be positive: {self._size}")
+            raise ValueError(f"Size needs to be positive: {max_size}")
         self._size = 0
         self._max_size = max_size
         self._array = Array(max_size, typecode)
