@@ -1,0 +1,7 @@
+{
+  "reportGeneralTypeIssues": "none",
+  "reportMissingTypeStubs": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownMemberType": "none",
+  "typeCheckingMode": "off"
+}
